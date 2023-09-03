@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Declarar e inicializar dos variables enteras
+    int variable1 = 10;
+    int variable2 = 2;
+
+    // Calcular el resultado de la multiplicación
+    int resultado = variable1 * variable2;
+
+    // Mostrar el resultado en el formato especificado
+    printf("Declaro e inicializo dos variables enteras.\n");
+    printf("Una con valor %d y la otra con valor %d\n", variable1, variable2);
+    printf("El resultado es %d\n", resultado);
+
+    return 0;
